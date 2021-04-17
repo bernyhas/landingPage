@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: lightgray;
+  line-height: 1.8;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#container {
+  max-width: 1400px;
+  margin: 10px auto;
+}
+
+#nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li a {
+  padding: 10px;
+  color: #333;
+}
+
+.nav li a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.form-group input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.form-group .btn {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
+  background: blue;
+  color: white;
+  border: none;
+}
